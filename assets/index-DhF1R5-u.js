@@ -94,7 +94,7 @@ Y aunque ni siquiera sabía que estaba buscando a alguien… en ese momento sent
 
 Cada día a tu lado me ha enseñado que el amor no es solo un sentimiento, sino una decisión. La decisión de elegirte una y otra vez, de apoyarte, de reír contigo y de construir algo que merezca la pena.
 
-Gracias por ser mi refugio, mi complicidad y mi hogar. Gracias por la paciencia y amor que me tienes porque estoy consciente de que no soy una persona fácil de tratar. 
+Gracias por ser mi refugio, mi complicidad y mi hogar. Gracias por la paciencia y amor que me tienes porque estoy consciente de que no soy una persona fácil de querer. 
 Gracias por creer en nosotros.
 
 Te amo. Hoy, mañana y en todos los capítulos que faltan. 💌`;function E2({onClick:a}){const[r,l]=q.useState(!1);return D.jsx("section",{className:"relative z-10 py-16 px-4",children:D.jsx(Et.div,{className:"max-w-xl mx-auto",initial:{opacity:0,y:20},whileInView:{opacity:1,y:0},viewport:{once:!0},transition:{duration:.5},children:D.jsx(Sd,{mode:"wait",children:r?D.jsxs(D.Fragment,{children:[D.jsx(Et.div,{initial:{opacity:0,scale:.9},animate:{opacity:1,scale:1},exit:{opacity:0},transition:{duration:.4},className:"rounded-3xl p-6 md:p-10 shadow-xl border min-h-[280px]",style:{backgroundColor:"var(--theme-background)",borderColor:"var(--theme-accent)",color:"var(--theme-text)"},children:D.jsx("div",{className:"prose prose-lg max-w-none",children:w2.split(`
