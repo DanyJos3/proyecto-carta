@@ -14,11 +14,11 @@ export default function GiftBoxScreen({ onOpen }) {
         <span className="text-[var(--theme-primary)] font-bold text-4xl">Para:</span> Dayla Alejandra
       </p>
       <p className="text-4xl md:text-4xl mb-8 text-[var(--theme-text-muted)] font-medium text-center">
-        <span className="text-[var(--theme-primary)] font-bold text-4xl">De:</span> Su eterno enamorado 
+        <span className="text-[var(--theme-primary)] font-bold text-4xl">De:</span> Dany Jose
       </p>
-      <p className="text-4xl md:text-4xl mb-8 text-[var(--theme-text-muted)] font-medium text-center">
+      {/* <p className="text-4xl md:text-4xl mb-8 text-[var(--theme-text-muted)] font-medium text-center">
       (Daniel Jose)
-      </p>
+      </p>  */}
       <p className="text-lg md:text-xl mb-8 text-[var(--theme-text-muted)] font-medium text-center">
         Tengo algo especial para ti...
       </p>

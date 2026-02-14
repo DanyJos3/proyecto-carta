@@ -15,12 +15,16 @@ Ese fue el instante que cambió todo.
 Sentir tus labios fue como conectar contigo de una forma que no puedo explicar.
 Y aunque ni siquiera sabía que estaba buscando a alguien… en ese momento sentí que, de alguna manera, por fin te había encontrado.` },
   { date: '06 Diciembre 2024', title: `Primeras fiestas de Quito juntos`, image: null },
-  { date: '07 Diciembre 2024', title: `El día que aja 🙈😉`, image: [`${import.meta.env.BASE_URL}/photos/IMG_0896.webp`, `${import.meta.env.BASE_URL}/photos/IMG_0901.webp`] },
+  { date: '07 Diciembre 2024', title: `El día que ajá 🙈😉`, image: [`${import.meta.env.BASE_URL}/photos/IMG_0896.webp`, `${import.meta.env.BASE_URL}/photos/IMG_0901.webp`] },
   { date: '25 Diciembre 2024', title: 'Primera Navidad Juntos', image: [`${import.meta.env.BASE_URL}/photos/IMG_1454.webp`, `${import.meta.env.BASE_URL}/photos/IMG_1132.webp`] },
   { date: '03 Enero 2025', title: 'Primer viajecito a la playa', image: [`${import.meta.env.BASE_URL}/photos/IMG_1663.webp`] },
-  { date: '14 Enero 2025', title: 'El mejor regalo 😍', image: [`${import.meta.env.BASE_URL}/photos/IMG_2141.webp`, `${import.meta.env.BASE_URL}/photos/IMG_2120.webp`] },
-  { date: 'Un día especial - 14 Febrero 2025', title: 'Cuando te pedí que seas mi Novia', image: [`${import.meta.env.BASE_URL}/photos/IMG_2853.webp`, `${import.meta.env.BASE_URL}/photos/IMG_2847.webp`] },
-  { date: 'Momentos', title: 'En todo este año hemos vivido un sin numero de aventuras.', image: null },
+  { date: '14 Enero 2025', title: 'El mejor cumpleaños 😍', image: [`${import.meta.env.BASE_URL}/photos/IMG_2141.webp`, `${import.meta.env.BASE_URL}/photos/IMG_2120.webp`] },
+  { date: 'Un día especial - 14 Febrero 2025', title: 'Cuando aceptaste ser mi Novia', image: [`${import.meta.env.BASE_URL}/photos/IMG_2853.webp`, `${import.meta.env.BASE_URL}/photos/IMG_2847.webp`] },
+  // { date: 'Momentos', title: 'En todo este año hemos vivido un sin numero de aventuras.', image: null },
+  { date: 'Marzo', title: 'Primer viaje a Rio, cuando conociste a mi abuelitos, primos, familia.', image: null },
+  { date: 'Abril - Oct', title: 'Aventuras juntos..', image: null },
+  { date: 'Noviembre', title: 'Viaje en pareja a Cuenca y Loja', image: [`${import.meta.env.BASE_URL}/photos/IMG_60.jpeg`] },
+  { date: 'Diciembre', title: 'Primer Fin de año juntos', image: [`${import.meta.env.BASE_URL}/photos/IMG_61.jpeg`] },
   { date: 'Hoy', title: 'Nuestro primer aniversario', image: null },
 ]
 

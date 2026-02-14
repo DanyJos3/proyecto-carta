@@ -60,6 +60,10 @@ const POLAROIDS = [
   { photoId: 49, caption: 'Foto random jaja' },
   { photoId: 50, caption: 'En papallacta con el pri' },
 
+  { photoId: 61, caption: 'Iniciando el año' },
+  { photoId: 62, caption: 'Ganándote en los bolos' },
+
+
 
 ]
 

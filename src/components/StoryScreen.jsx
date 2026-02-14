@@ -71,11 +71,22 @@ export default function StoryScreen({ backgroundRef }) {
             Nuestra historia
           </h2>
           <p className="leading-relaxed opacity-90">
-            Todo comenzó el <strong>29 de noviembre de 2024</strong>, ese día no parecía diferente
-            pero el destino ya estaba escribiendo algo increíble para nosotros; desde ese día,
-            cada momento contigo se ha convertido en el mejor recuerdo. Este es un pequeño detalle
-            para celebrar nuestro primer aniversario y decirte
-            una vez más que elegirte fue la mejor decisión de mi vida. Te amo.
+            Todo comenzó el <strong>29 de noviembre de 2024</strong>.
+            Ese día no parecía diferente, pero el destino ya estaba escribiendo algo increíble para nosotros.
+            <br></br>
+
+            Desde entonces, cada momento contigo se ha convertido en uno de mis recuerdos favoritos, y poco a poco fui entendiendo que tú eras alguien especial.
+
+            <br></br>
+            <br></br>
+
+            Y luego llegó el <strong>14 de febrero de 2025</strong>…
+            el día en que finalmente me atreví a pedirte que fueras mi novia.
+            En ese instante supe que no estaba dando un paso cualquiera, estaba eligiendo a la persona indicada, a la que quiero a mi lado siempre.
+
+            Este es un pequeño detalle para celebrar nuestro primer aniversario y recordarte, una vez más, que elegirte fue la mejor decisión de mi vida.
+
+            Te amo. 💖
           </p>
         </motion.div>
       </section>
