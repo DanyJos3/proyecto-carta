@@ -6,7 +6,7 @@ const LETTER_TEXT = `Si pudiera resumir este año en una palabra… sería descu
 
 Cada día a tu lado me ha enseñado que el amor no es solo un sentimiento, sino una decisión. La decisión de elegirte una y otra vez, de apoyarte, de reír contigo y de construir algo que merezca la pena.
 
-Gracias por ser mi refugio, mi complicidad y mi hogar. Gracias por la paciencia y amor que me tienes porque estoy consciente de que no soy una persona fácil de tratar. 
+Gracias por ser mi refugio, mi complicidad y mi hogar. Gracias por la paciencia y amor que me tienes porque estoy consciente de que no soy una persona fácil de querer. 
 Gracias por creer en nosotros.
 
 Te amo. Hoy, mañana y en todos los capítulos que faltan. 💌`
