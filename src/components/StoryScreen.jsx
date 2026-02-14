@@ -9,8 +9,9 @@ import SongSection from './SongSection'
 import ExtraLoveLetter from './ExtraLoveLetter'
 import PhotoGallery from './PhotoGallery'
 import FinalMessage from './FinalMessage'
+import DaysCounter from './DaysCounter'
 
-export default function StoryScreen({backgroundRef}) {
+export default function StoryScreen({ backgroundRef }) {
   const heroRef = useRef(null)
   const storyRef = useRef(null)
   const inViewHero = useInView(heroRef, { once: true })
@@ -41,7 +42,7 @@ export default function StoryScreen({backgroundRef}) {
         </motion.p>
         <motion.img
           className="mx-auto mt-10"
-          src="src/assets/photos/hero.png"
+          src={`${import.meta.env.BASE_URL}/photos/hero.png`}
           alt="update_photo"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
@@ -79,6 +80,7 @@ export default function StoryScreen({backgroundRef}) {
         </motion.div>
       </section>
 
+      <DaysCounter />
       <Timeline />
       <ReasonsSection />
       <ThingsILove />

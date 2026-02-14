@@ -62,7 +62,7 @@ export default function ExtraLoveLetter({ onClick }) {
                 whileTap={{ scale: 0.98 }}
               >
                 <Heart className="w-5 h-5" fill="currentColor" />
-                Para siempre contigo
+                Tengo algo más para ti 💌
               </motion.button>
             </>
 

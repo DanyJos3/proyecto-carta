@@ -1,0 +1,52 @@
+.days-section {
+  text-align: center;
+  padding: 3rem 1.5rem;
+  margin-bottom: 2rem;
+  background: linear-gradient(135deg, rgba(232, 160, 168, 0.2) 0%, rgba(252, 228, 236, 0.4) 100%);
+  border-radius: 16px;
+  border: 1px solid rgba(232, 160, 168, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.days-section:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(232, 160, 168, 0.25);
+}
+
+.section-title {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  color: var(--color-ink);
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.days-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.days-number {
+  font-family: var(--font-display);
+  font-size: clamp(3rem, 10vw, 5rem);
+  font-weight: 600;
+  color: var(--color-rose-dark);
+  line-height: 1.1;
+  animation: glowPulse 2.5s ease-in-out infinite;
+}
+
+.days-label {
+  font-family: var(--font-body);
+  font-size: 1.1rem;
+  color: var(--color-ink);
+  opacity: 0.9;
+}
+
+.days-since {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: var(--color-ink);
+  opacity: 0.8;
+}

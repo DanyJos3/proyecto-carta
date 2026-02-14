@@ -63,7 +63,7 @@ export default function PhotoGallery() {
                   src={src}
                   alt={`Momento ${id}`}
                   className="absolute inset-0 w-full h-full object-cover"
-                // loading="lazy"
+                  loading="lazy"
                 />
               ) : (
                 <span className="text-sm">Foto {id}</span>
@@ -102,7 +102,7 @@ export default function PhotoGallery() {
                   src={photoUrls[lightboxIndex]}
                   alt=""
                   className="w-full h-full object-contain rounded-2xl shadow-2xl"
-                  // loading="lazy"
+                loading="lazy"
                 />
               ) : (
                 <div className="bg-white/10 rounded-2xl flex items-center justify-center aspect-video text-white">

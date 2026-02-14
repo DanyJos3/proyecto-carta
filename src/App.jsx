@@ -26,9 +26,9 @@ function applyTheme(theme) {
 }
 
 export default function App() {
-  // const [screen, setScreen] = useState(SCREENS.GIFT_BOX)
-  const [startMusic, setStartMusic] = useState(false)
-  const [screen, setScreen] = useState(SCREENS.STORY)
+  const [screen, setScreen] = useState(SCREENS.GIFT_BOX)
+  // const [startMusic, setStartMusic] = useState(false)
+  // const [screen, setScreen] = useState(SCREENS.STORY)
   const backgroundRef = useRef(null)
 
   useEffect(() => {

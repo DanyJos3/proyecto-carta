@@ -14,11 +14,12 @@ Después de conocernos un poco más, me robaste un beso.
 Ese fue el instante que cambió todo.
 Sentir tus labios fue como conectar contigo de una forma que no puedo explicar.
 Y aunque ni siquiera sabía que estaba buscando a alguien… en ese momento sentí que, de alguna manera, por fin te había encontrado.` },
-  { date: '07 Diciembre 2024', title: `El día que aja 🙈😉`, image: ['src/assets/photos/IMG_0896.webp', 'src/assets/photos/IMG_0901.webp'] },
-  { date: '25 Diciembre 2024', title: 'Primera Navidad Juntos', image: ['src/assets/photos/IMG_1454.webp', 'src/assets/photos/IMG_1132.webp'] },
-  { date: '03 Enero 2025', title: 'Primer viajecito a la playa', image: ['src/assets/photos/IMG_1663.webp'] },
-  { date: '14 Enero 2025', title: 'El mejor regalo 😍', image: ['src/assets/photos/IMG_2141.webp', 'src/assets/photos/IMG_2120.webp'] },
-  { date: 'Un día especial - 14 Febrero 2025', title: 'Cuando te pedí que seas mi Novia', image: ['src/assets/photos/IMG_2853.webp', 'src/assets/photos/IMG_2847.webp'] },
+  { date: '06 Diciembre 2024', title: `Primeras fiestas de Quito juntos`, image: null },
+  { date: '07 Diciembre 2024', title: `El día que aja 🙈😉`, image: [`${import.meta.env.BASE_URL}/photos/IMG_0896.webp`, `${import.meta.env.BASE_URL}/photos/IMG_0901.webp`] },
+  { date: '25 Diciembre 2024', title: 'Primera Navidad Juntos', image: [`${import.meta.env.BASE_URL}/photos/IMG_1454.webp`, `${import.meta.env.BASE_URL}/photos/IMG_1132.webp`] },
+  { date: '03 Enero 2025', title: 'Primer viajecito a la playa', image: [`${import.meta.env.BASE_URL}/photos/IMG_1663.webp`] },
+  { date: '14 Enero 2025', title: 'El mejor regalo 😍', image: [`${import.meta.env.BASE_URL}/photos/IMG_2141.webp`, `${import.meta.env.BASE_URL}/photos/IMG_2120.webp`] },
+  { date: 'Un día especial - 14 Febrero 2025', title: 'Cuando te pedí que seas mi Novia', image: [`${import.meta.env.BASE_URL}/photos/IMG_2853.webp`, `${import.meta.env.BASE_URL}/photos/IMG_2847.webp`] },
   { date: 'Momentos', title: 'En todo este año hemos vivido un sin numero de aventuras.', image: null },
   { date: 'Hoy', title: 'Nuestro primer aniversario', image: null },
 ]
@@ -88,7 +89,7 @@ export default function Timeline() {
         animate={inView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.5 }}
       >
-        Fechas memorables
+        Nuestro Inicio
       </motion.h2>
 
       <div className="max-w-xl mx-auto">
