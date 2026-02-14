@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 import { Play, Pause } from 'lucide-react'
 
 const SPOTIFY_EMBED_URL = '' // Pegar URL de embed de Spotify (ej: https://open.spotify.com/embed/track/...)
-const BACKGROUND_SRC = '/song.mp3'
+const BACKGROUND_SRC = `${import.meta.env.BASE_URL}/song.mp3`
 
 
 export default function SongSection({backgroundRef}) {

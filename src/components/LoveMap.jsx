@@ -42,7 +42,9 @@ const PLACES = [
 
 // Icono del marcador = foto nuestra (circular con borde)
 function createPhotoIcon(photoUrl) {
-  const src = photoUrl || 'data:image/svg+xml,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><circle cx="24" cy="24" r="22" fill="%23fce7f3" stroke="%23ec4899" stroke-width="2"/><text x="24" y="28" text-anchor="middle" fill="%239f1239" font-size="20">💕</text></svg>')
+
+  // const src = photoUrl || 'data:image/svg+xml,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><circle cx="24" cy="24" r="22" fill="%23fce7f3" stroke="%23ec4899" stroke-width="2"/><text x="24" y="28" text-anchor="middle" fill="%239f1239" font-size="20">💕</text></svg>')
+  const src = `${import.meta.env.BASE_URL}photos/IMG_39.webp`
   return L.divIcon({
     className: 'photo-marker',
     html: `<span class="marker-photo-wrap"><img src="${src}" alt="" class="marker-photo" /></span>`,
@@ -168,12 +170,16 @@ export default function LoveMap() {
             </motion.span>
           ))}
         </motion.div>
+        <p className="text-center text-[var(--theme-text-muted)] mb-8">
+          Por ahora solo en Ecuador, pero quiero conocer el mundo entero contigo
+        </p>
       </motion.div>
 
       <style>{`
         .love-map .leaflet-container {
           font-family: inherit;
           background: #e8f4f8;
+          width: 100%
         }
         .photo-marker {
           background: none !important;

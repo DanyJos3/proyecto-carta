@@ -85,7 +85,7 @@ export default function StoryScreen({backgroundRef}) {
       <PolaroidMemories />
       <LoveMap />
       <SongSection backgroundRef={backgroundRef} />
-      <PhotoGallery />
+      {/* <PhotoGallery /> */}
       <FinalMessage />
     </div>
   )

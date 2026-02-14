@@ -3,9 +3,9 @@ import { motion } from 'framer-motion'
 import { Music, Volume2 } from 'lucide-react'
 
 // Música de fondo (suena sola al cargar la web)
-const BACKGROUND_SRC = '/music.mp3'
+const BACKGROUND_SRC = `${import.meta.env.BASE_URL}/music.mp3`
 // Música del botón (suena al hacer clic; puede ser "nuestra canción")
-const BUTTON_SONG_SRC = '/song.mp3'
+const BUTTON_SONG_SRC = `${import.meta.env.BASE_URL}/song.mp3`
 
 export default function BackgroundMusic({ backgroundRef }) {
   const buttonSongRef = useRef(null)

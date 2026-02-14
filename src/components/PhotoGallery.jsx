@@ -3,19 +3,31 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { X } from 'lucide-react'
 
 // Cargar todas las fotos posibles (photo1.jpg ... photo20.jpg) con glob de Vite
-const photoGlob = import.meta.glob('../assets/photos/photo*.jpg', { eager: true, query: '?url', import: 'default' })
+// const photoGlob = import.meta.glob('/photos/IMG*.webp', { eager: true, query: '?url', import: 'default' })
 
-function getPhotoUrl(i) {
-  const key = `../assets/photos/photo${i}.jpg`
-  const v = photoGlob[key]
-  return (typeof v === 'string' ? v : v?.default) ?? null
-}
+// function getPhotoUrl(i) {
+//   const key = `/photos/IMG_${i}.webp`
+//   console.log("key",key)
+//   const v = photoGlob[key]
+//   console.log("getPhotoUrl", v)
+//   return (typeof v === 'string' ? v : v?.default) ?? null
+// }
 
-const PHOTO_IDS = Array.from({ length: 20 }, (_, i) => i + 1)
+// const PHOTO_IDS = Array.from({ length: 5 }, (_, i) => i + 1)
 
 export default function PhotoGallery() {
   const [lightboxIndex, setLightboxIndex] = useState(null)
-  const photoUrls = useMemo(() => PHOTO_IDS.map(getPhotoUrl), [])
+  // console.log(PHOTO_IDS)
+  // const photoUrls = useMemo(Array.from({ length: 54 }, (_, i) =>
+  //   `/photos/photo${String(i + 1).padStart(2, "0")}.webp`
+  // ), [])
+  // console.log(PHOTO_IDS)
+  const photoUrls = Array.from({ length: 50 }, (_, i) =>
+    // `/public/photos/IMG_${i}.webp`
+    `${import.meta.env.BASE_URL}photos/IMG_${i + 1}.webp`
+  )
+
+  // console.log("getPhotoUrl(1)",getPhotoUrl(1))
 
   return (
     <section className="relative z-10 py-16 px-4">
@@ -30,8 +42,9 @@ export default function PhotoGallery() {
       </motion.h2>
 
       <div className="max-w-5xl mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 md:gap-6">
-        {PHOTO_IDS.map((id, index) => {
-          const src = photoUrls[index]
+        {photoUrls.map((id, index) => {
+          const src = id
+          { console.log("src", src) }
           return (
             <motion.button
               key={id}
@@ -50,6 +63,7 @@ export default function PhotoGallery() {
                   src={src}
                   alt={`Momento ${id}`}
                   className="absolute inset-0 w-full h-full object-cover"
+                // loading="lazy"
                 />
               ) : (
                 <span className="text-sm">Foto {id}</span>
@@ -88,6 +102,7 @@ export default function PhotoGallery() {
                   src={photoUrls[lightboxIndex]}
                   alt=""
                   className="w-full h-full object-contain rounded-2xl shadow-2xl"
+                  // loading="lazy"
                 />
               ) : (
                 <div className="bg-white/10 rounded-2xl flex items-center justify-center aspect-video text-white">

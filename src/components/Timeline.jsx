@@ -19,7 +19,7 @@ Y aunque ni siquiera sabía que estaba buscando a alguien… en ese momento sent
   { date: '03 Enero 2025', title: 'Primer viajecito a la playa', image: ['src/assets/photos/IMG_1663.webp'] },
   { date: '14 Enero 2025', title: 'El mejor regalo 😍', image: ['src/assets/photos/IMG_2141.webp', 'src/assets/photos/IMG_2120.webp'] },
   { date: 'Un día especial - 14 Febrero 2025', title: 'Cuando te pedí que seas mi Novia', image: ['src/assets/photos/IMG_2853.webp', 'src/assets/photos/IMG_2847.webp'] },
-  { date: 'Otro momento', title: 'Cuando supe que eras la indicada', image: null },
+  { date: 'Momentos', title: 'En todo este año hemos vivido un sin numero de aventuras.', image: null },
   { date: 'Hoy', title: 'Nuestro primer aniversario', image: null },
 ]
 
